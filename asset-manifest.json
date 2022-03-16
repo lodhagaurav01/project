@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lodhagaurav01/project.git/static/css/main.073c9b0a.css",
+    "main.js": "/lodhagaurav01/project.git/static/js/main.918bf101.js",
+    "static/js/787.ec704a7a.chunk.js": "/lodhagaurav01/project.git/static/js/787.ec704a7a.chunk.js",
+    "static/media/logo.svg": "/lodhagaurav01/project.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lodhagaurav01/project.git/index.html",
+    "main.073c9b0a.css.map": "/lodhagaurav01/project.git/static/css/main.073c9b0a.css.map",
+    "main.918bf101.js.map": "/lodhagaurav01/project.git/static/js/main.918bf101.js.map",
+    "787.ec704a7a.chunk.js.map": "/lodhagaurav01/project.git/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.918bf101.js"
+  ]
+}
