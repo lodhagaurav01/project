@@ -34,37 +34,17 @@ export default function Textbar(props) {
     <>
       <div className="container-fluid mt-3 border border-danger" style={mystyle}>
       {/* <div  */}
-                
-                <button type="button" class="btn btn-outline-dark" style={{
-                   
-                   display: "flex",
-                   justifyContent:"flex-end",
-                    // position: "absolute",
-                    // margin:'0 auto'
-                    right:'0'
-                  // left:'50px'
-                  //  alignItems:"end"
-                   
-                    
+                <div className="d-flex justify-content-end" style={{right:'-50'}}>
+                <button type="button" className={`btn btn-outline-${props.mode==='dark'?'danger':'dark'} bg-${props.mode==='dark'?'#042743':props.basiccolor}` } style={{position:'absolute',width:'10',height:'auto'  
                   }}
-                  onClick={copytxt}>Copy</button> 
-                {/* <button  >copy</button> */}
-                  {/* </div> */}
+                  onClick={copytxt}>Copy</button> </div>
+                
                   
                
-          {/* console.log(props.mode); */}
-      <div className='myid'>  
-      {/*  */}
         
       
-        <p id={props.id}>{props.text}</p>
-        {/* <Copyimg /> */}
-        <div>
-        
-      
-    </div>
-        
-</div>  
+        <p id={props.id} >{props.text}</p>
+       
       </div>
      
       

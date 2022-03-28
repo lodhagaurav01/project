@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import './App.css';
 import Copyimg from './components/Copyimg';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Textbar from './components/Textbar';
 
@@ -43,6 +44,8 @@ function App() {
         </div>
       </div>
     </div>
+
+    <Footer/>
     {/* <Copyimg/> */}
     </>
   );
